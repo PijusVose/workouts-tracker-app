@@ -1,14 +1,15 @@
 ﻿@inherits LayoutComponentBase
 
-<NavMenu></NavMenu>
-
-<div class="page">
-    <main>
-        <article class="content px-4">
-            @Body
-        </article>
-    </main>
+@*Make the navbar fixed to the top of the screen*@
+<div class="w-100 fixed-top">
+    <NavMenu></NavMenu>
 </div>
+
+@*Put page content in here*@
+<div class="d-flex position-relative flex-column">
+    @Body
+</div>
+
 
 
 
