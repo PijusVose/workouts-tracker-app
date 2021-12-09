@@ -16,7 +16,8 @@ a, .btn-link {
 header {
     position: relative;
     background-color: transparent;
-    height: 75vh;
+    height: 75vh;  
+    margin-top: 64px;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
@@ -27,6 +28,8 @@ header video {
     top: 50%;
     left: 50%;
     object-fit: cover;
+    width: auto;
+    height: auto;
     z-index: 0;
     -ms-transform: translateX(-50%) translateY(-50%);
     -moz-transform: translateX(-50%) translateY(-50%);
