@@ -1,4 +1,14 @@
 
-.navbar {
-    height: 64px !important;
+@media (min-width: 993px) {
+    .navbar-toggler {
+        display: none;
+    }
+
+    .collapse {
+        display: inherit;
+    }
+
+    ul {
+        border-bottom: 1px;
+    }
 }
