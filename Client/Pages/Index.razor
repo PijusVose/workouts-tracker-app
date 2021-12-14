@@ -1,33 +1,48 @@
 ﻿@page "/"
 @page "/home"
 
-@*<header class="position-relative m-0">
-    <video playsinline muted autoplay loop>
+<div class="landing-header">
+    <video class="landing-video" playsinline muted autoplay loop>
         <source  src="/videos/background.mp4/" type="video/mp4">
     </video>
 
-    <div class="d-flex position-absolute text-center align-content-center">
-        <h1 class="text-center text-white">Home</h1>
+    <div class="container h-100">
+        <div class="d-flex h-100 align-items-center">
+            <div class="w-100 text-white">
+                <h1 class="display-6 text-white fw-bold text-left">Workout Progress Tracker like you have never seen before.</h1>
+                <p class="text-white fs-5 mb-4">Improve your progress by a notch!</p>
+                <button class="btn btn-primary fw-bolder fs-4">
+                    Register Now
+                </button>
+            </div>
+        </div>
     </div>
-    
-</header>*@
+</div>
 
 <main>
-    <h1 class="text-center my-3">Welcome</h1>
-    <p class="mt-3">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt velit vel maximus dignissim. Vivamus eleifend purus quis ipsum luctus, et tristique felis imperdiet. Proin eu magna maximus, sagittis velit eget, placerat ante. In ut tristique ante, in accumsan risus. In lacinia vel est eu condimentum. Nunc blandit, sapien et pellentesque euismod, nisi elit scelerisque libero, vel iaculis turpis lacus a dolor. Mauris nisl mi, ornare a turpis vitae, cursus porta arcu. Suspendisse laoreet arcu ac mauris faucibus, eget venenatis risus lobortis. Integer ac velit sed erat sagittis pharetra. Curabitur faucibus tellus enim, id convallis ligula placerat luctus. Praesent rutrum justo in odio auctor ultricies. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur viverra non lacus eget molestie.
-
-        Nulla pulvinar maximus tristique. Duis ornare nisi vel feugiat interdum. Pellentesque vel lectus eget tortor ornare faucibus ac in eros. Nam dignissim magna sapien, a posuere velit accumsan at. Proin ac libero varius, pulvinar enim et, tempor ante. Morbi blandit augue sollicitudin ex sollicitudin, pulvinar lobortis leo condimentum. Curabitur vel metus a dui elementum imperdiet a et justo. Quisque mollis rhoncus mi eget iaculis.
-
-        Integer sed pharetra est, et posuere lorem. Sed dapibus neque non consequat rutrum. Maecenas lectus tortor, tristique ut faucibus quis, lobortis sit amet quam. Nulla fringilla sed nisi eget dapibus. Donec sit amet nisl leo. Sed eu aliquet lorem, vel ultrices lorem. Quisque ante arcu, faucibus vel elit blandit, mollis mollis massa. Donec ac mi vel lectus accumsan venenatis ac interdum turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras vestibulum ac tortor at fermentum.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt velit vel maximus dignissim. Vivamus eleifend purus quis ipsum luctus, et tristique felis imperdiet. Proin eu magna maximus, sagittis velit eget, placerat ante. In ut tristique ante, in accumsan risus. In lacinia vel est eu condimentum. Nunc blandit, sapien et pellentesque euismod, nisi elit scelerisque libero, vel iaculis turpis lacus a dolor. Mauris nisl mi, ornare a turpis vitae, cursus porta arcu. Suspendisse laoreet arcu ac mauris faucibus, eget venenatis risus lobortis. Integer ac velit sed erat sagittis pharetra. Curabitur faucibus tellus enim, id convallis ligula placerat luctus. Praesent rutrum justo in odio auctor ultricies. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur viverra non lacus eget molestie.
-
-        Nulla pulvinar maximus tristique. Duis ornare nisi vel feugiat interdum. Pellentesque vel lectus eget tortor ornare faucibus ac in eros. Nam dignissim magna sapien, a posuere velit accumsan at. Proin ac libero varius, pulvinar enim et, tempor ante. Morbi blandit augue sollicitudin ex sollicitudin, pulvinar lobortis leo condimentum. Curabitur vel metus a dui elementum imperdiet a et justo. Quisque mollis rhoncus mi eget iaculis.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt velit vel maximus dignissim. Vivamus eleifend purus quis ipsum luctus, et tristique felis imperdiet. Proin eu magna maximus, sagittis velit eget, placerat ante. In ut tristique ante, in accumsan risus. In lacinia vel est eu condimentum. Nunc blandit, sapien et pellentesque euismod, nisi elit scelerisque libero, vel iaculis turpis lacus a dolor. Mauris nisl mi, ornare a turpis vitae, cursus porta arcu. Suspendisse laoreet arcu ac mauris faucibus, eget venenatis risus lobortis. Integer ac velit sed erat sagittis pharetra. Curabitur faucibus tellus enim, id convallis ligula placerat luctus. Praesent rutrum justo in odio auctor ultricies. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur viverra non lacus eget molestie.
-
-        Nulla pulvinar maximus tristique. Duis ornare nisi vel feugiat interdum. Pellentesque vel lectus eget tortor ornare faucibus ac in eros. Nam dignissim magna sapien, a posuere velit accumsan at. Proin ac libero varius, pulvinar enim et, tempor ante. Morbi blandit augue sollicitudin ex sollicitudin, pulvinar lobortis leo condimentum. Curabitur vel metus a dui elementum imperdiet a et justo. Quisque mollis rhoncus mi eget iaculis.
-
-    </p>
+    <div class="container">
+        <h1 class="main-title">Home</h1>
+        <p style="text-indent: 40px">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet, diam eu condimentum elementum, sapien nulla iaculis ante, eu accumsan nisl tellus sit amet mi. Pellentesque cursus diam maximus ornare gravida. Vestibulum metus sapien, dapibus et condimentum ac, tempus in diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque efficitur blandit faucibus. Curabitur tortor nulla, dignissim vel lacinia a, convallis vel leo. Donec porttitor nec ipsum tempor maximus. Nullam in lacus lobortis, interdum lorem ullamcorper, tempor sem. Fusce tempor tincidunt est in semper. Sed vitae massa ac neque lacinia sollicitudin hendrerit a justo. In eget porttitor arcu. Nam vitae felis sed nisi blandit euismod. Curabitur quis dolor vitae libero facilisis volutpat. Suspendisse potenti. Ut quis nulla elementum, accumsan tellus quis, condimentum purus. Suspendisse non efficitur elit.
+        </p>
+        <br />
+        <p style="text-indent: 40px">
+            Proin congue eleifend tortor, sit amet dapibus massa bibendum finibus. Curabitur orci ligula, porttitor id consequat bibendum, dictum vel orci. Morbi feugiat odio eu nisi tempor, eu faucibus est dictum. In a erat sed dolor gravida ornare. Duis eget felis tellus. Cras vitae est et augue varius venenatis a tristique tellus. Aenean porttitor odio ut ipsum vestibulum, commodo tincidunt risus dictum. Donec at nunc finibus, vulputate ex pulvinar, rhoncus turpis. Suspendisse potenti. Vestibulum gravida massa justo, in eleifend sem aliquam placerat. Donec vestibulum velit eu convallis venenatis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce elit dui, finibus sed consectetur vel, ornare sed nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam sollicitudin mollis urna, et aliquam erat elementum eget.
+        </p>
+    </div>
 </main>
+
+<footer class="py-3 my-4">
+    <div class="container">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Exercises</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Logbook</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+        </ul>
+        <p class="text-center text-muted">&copy; 2021 Pijus Vose</p>
+    </div>
+</footer>
 
 

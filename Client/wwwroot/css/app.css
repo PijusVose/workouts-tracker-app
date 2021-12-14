@@ -9,6 +9,14 @@ h1:focus {
     outline: none;
 }
 
+.full-width {
+    object-fit: contain;
+}
+
+/*.landing-header {
+    height: 30vw;
+}*/
+
 .valid.modified:not([type=checkbox]) {
     outline: 1px solid #26b050;
 }
@@ -23,7 +31,37 @@ h1:focus {
 
 .main-title {
     text-align: center;
-    margin: 0px 10px;
+    margin: 20px 0px;
+}
+
+.landing-header {
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+    height: 30vw;
+}
+
+.landing-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.landing-header .container {
+    position: relative;
+    z-index: 999;
 }
 
 #blazor-error-ui {
